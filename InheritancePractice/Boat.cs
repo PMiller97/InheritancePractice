@@ -19,6 +19,11 @@ namespace InheritancePractice
             this.waterDrag = waterDrag;
         }
 
+        public Boat()
+        {
+
+        }
+
         public override void Move()
         {
             distanceTraveled += movmentSpeed * waterDrag; //+= is saying distance traveled is equal to DT + movement speed
