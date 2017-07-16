@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace InheritancePractice
 {
-    class JetSki : Boat
+    abstract class Appliances
     {
+        public abstract void Clean();
         
     }
 }

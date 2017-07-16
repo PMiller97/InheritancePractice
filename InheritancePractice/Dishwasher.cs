@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace InheritancePractice
 {
-    class JetSki : Boat
+    class Dishwasher : Appliances
     {
-        
+        public override void Clean()
+        {
+            Console.WriteLine("I'm clean now");
+        }
     }
 }
